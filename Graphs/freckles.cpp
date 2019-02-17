@@ -26,7 +26,7 @@ double Point_Distace(pair<double,double>p1, pair<double,double>p2){
 	return sqrt( pow(p1.first-p2.first,2)+pow(p1.second-p2.second,2));
 }
 double Kruskal( priority_queue< pair< double,pair <int,int> > >edg, int N){
-	UnionFind UF = *(new UnionFind(N));
+	UnionFind UF = *(new UnionFind(N));	
 	double res = 0;
 	while(!edges.empty()){
 		auto nodes = edges.top().second;
@@ -59,4 +59,4 @@ int main(){
 	 	printf("%.2lf\n",-1*Kruskal(edges,points.size()));
 	}
 	
-}	
+}
