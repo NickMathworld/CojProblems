@@ -1,0 +1,57 @@
+what is java ?
+Es un lenguaje de programación orientado a objetos
+what are the concepts of OOP ?
+- OBJETO
+- CLASE
+- HERENCIA
+- POLIMORFISMO 
+- OVERLOADING Y OVERREADING
+- COHESION
+- ENCAPSULAMIENTO
+- ABSTRACCIÓN
+- INTERFACES
+- IMPLEMENTACIÓN
+- ACOMPLAMIENTO
+- CLASES ABSTRACTAS
+mention some features of java ?
+- Ocupa una maquina virtual que se encarga de gestionar la memoria
+- es orientado a objetos
+- es robusto
+- tiene mucho soporte
+- usa hilos internamente
+what is abstraction ?
+Es la capacidad de poder definir el comportamiento que tendrá un objeto pero sin la necesidad
+de definir como lo hará en específico, un ejemplo en programación sería tanto las clases abstractas como las interfaces, en las que podemos definir métodos sin implementar, ésto nos ayuda ya que no conocemos la implementación que tendrá pero tenemos la certeza de que existe dicho método y que lo podemos usar.
+
+What is encapsulation ?
+El encapsulamiento es el encerrar los datos de un objeto para que nada externo los pueda modificar o leer, y que solo puedan ser leeídos o modificados mediante métodos definidos, por ejemplo setters y getters.
+
+What is the difference between encapsulation and abstraction ?
+
+La abstracción se encarga de que se oculte el como harán las cosas en sus métodos, mientras que el encapsulamiento se encarga de delimitar el acceso a los elementos de un objeto.
+
+What is polymorphism?
+
+Es la capacidad que tiene un objeto de ser instanciado de diferentes clases que deriven de la misma clase (herencia).
+
+what are the types of polymorphism ?
+
+what does the "static" word mean?
+
+Significa que la variable/metodo que se declara vive en la clase y no en la instancia de la clase, es decir no es necesario crear una instancia de la variable para que se pueda ocupar éste elemento.
+
+Can you override private or static methods in java ?
+
+No, ya que una variable/metodo privado solo puede ser accedido por la clase que lo definió, cualquier clase que herede está definiendo un método de esa clase y no sobreescribe al método/variable que definó la clase padre, y en el caso de los métodos estáticos, éstos pertecen a la clase y no a una instancia, generando un caso similiar con las variables privadas.
+
+can you access no static variable in a static context ?
+No, el compilador te manda un error de que estás usando variables no estáticas en un contexto estático, y ésto se debe a que las variables no estáticas pertenecen a la instancia de la clase, mientas que las variables estáticas pertenecen a la definición de la clase.
+
+what is autoboxing and unboxing ?
+Es la transformación automática entre tipos nativos de java a objetos y viceversa, por ejemplo autoboxing sería pasar de 5 a un valor integer y al trabajar con un integer poder hacer operaciones como +-*% java hace un unboxing para transormar de un Integer a valores nativos de java.
+
+what is a constructor ?
+Es una función encargada de crear una instancia de un objeto, es decir, que sea creado en memoria y sea referenciado.
+
+What is a constructor overloading ?
+Tener mas de una 
